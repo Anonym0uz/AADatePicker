@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F2C3F0B2594804100C04EBD /* AADatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2C3F0A2594804100C04EBD /* AADatePicker.swift */; };
+		9F2C3F0F2594831400C04EBD /* AADemoControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2C3F0E2594831400C04EBD /* AADemoControllerViewController.swift */; };
+		9F2C3F222594A7EB00C04EBD /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F2C3F202594A7EB00C04EBD /* Main_iPad.storyboard */; };
+		9F2C3F272594A80F00C04EBD /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F2C3F252594A80F00C04EBD /* Main_iPhone.storyboard */; };
 		C8AD661E18E2E01B00620DD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8AD661D18E2E01B00620DD9 /* Foundation.framework */; };
 		C8AD662018E2E01B00620DD9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8AD661F18E2E01B00620DD9 /* CoreGraphics.framework */; };
 		C8AD662218E2E01B00620DD9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8AD662118E2E01B00620DD9 /* UIKit.framework */; };
 		C8AD662818E2E01B00620DD9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C8AD662618E2E01B00620DD9 /* InfoPlist.strings */; };
 		C8AD662A18E2E01B00620DD9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AD662918E2E01B00620DD9 /* main.m */; };
 		C8AD662E18E2E01B00620DD9 /* AAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AD662D18E2E01B00620DD9 /* AAAppDelegate.m */; };
-		C8AD663118E2E01B00620DD9 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8AD662F18E2E01B00620DD9 /* Main_iPhone.storyboard */; };
-		C8AD663418E2E01B00620DD9 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8AD663218E2E01B00620DD9 /* Main_iPad.storyboard */; };
-		C8AD663718E2E01B00620DD9 /* AAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AD663618E2E01B00620DD9 /* AAViewController.m */; };
 		C8AD663918E2E01B00620DD9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8AD663818E2E01B00620DD9 /* Images.xcassets */; };
 		C8AD664018E2E01B00620DD9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8AD663F18E2E01B00620DD9 /* XCTest.framework */; };
 		C8AD664118E2E01B00620DD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8AD661D18E2E01B00620DD9 /* Foundation.framework */; };
@@ -36,6 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9F2C3F092594804000C04EBD /* AACustomDatePicker-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AACustomDatePicker-Bridging-Header.h"; sourceTree = "<group>"; };
+		9F2C3F0A2594804100C04EBD /* AADatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AADatePicker.swift; sourceTree = "<group>"; };
+		9F2C3F0E2594831400C04EBD /* AADemoControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AADemoControllerViewController.swift; sourceTree = "<group>"; };
+		9F2C3F212594A7EB00C04EBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		9F2C3F262594A80F00C04EBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		C8AD661A18E2E01B00620DD9 /* AACustomDatePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AACustomDatePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8AD661D18E2E01B00620DD9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C8AD661F18E2E01B00620DD9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,10 +52,6 @@
 		C8AD662B18E2E01B00620DD9 /* AACustomDatePicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AACustomDatePicker-Prefix.pch"; sourceTree = "<group>"; };
 		C8AD662C18E2E01B00620DD9 /* AAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAAppDelegate.h; sourceTree = "<group>"; };
 		C8AD662D18E2E01B00620DD9 /* AAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAAppDelegate.m; sourceTree = "<group>"; };
-		C8AD663018E2E01B00620DD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		C8AD663318E2E01B00620DD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		C8AD663518E2E01B00620DD9 /* AAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAViewController.h; sourceTree = "<group>"; };
-		C8AD663618E2E01B00620DD9 /* AAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAViewController.m; sourceTree = "<group>"; };
 		C8AD663818E2E01B00620DD9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C8AD663E18E2E01B00620DD9 /* AACustomDatePickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AACustomDatePickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8AD663F18E2E01B00620DD9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -119,14 +121,12 @@
 			children = (
 				C8AD662C18E2E01B00620DD9 /* AAAppDelegate.h */,
 				C8AD662D18E2E01B00620DD9 /* AAAppDelegate.m */,
-				C8AD662F18E2E01B00620DD9 /* Main_iPhone.storyboard */,
-				C8AD663218E2E01B00620DD9 /* Main_iPad.storyboard */,
-				C8AD663518E2E01B00620DD9 /* AAViewController.h */,
-				C8AD663618E2E01B00620DD9 /* AAViewController.m */,
-				C8AD663818E2E01B00620DD9 /* Images.xcassets */,
 				C8AD662418E2E01B00620DD9 /* Supporting Files */,
 				C8AD665518E2E06300620DD9 /* AADatePicker.h */,
 				C8AD665618E2E06300620DD9 /* AADatePicker.m */,
+				9F2C3F0A2594804100C04EBD /* AADatePicker.swift */,
+				9F2C3F0E2594831400C04EBD /* AADemoControllerViewController.swift */,
+				9F2C3F092594804000C04EBD /* AACustomDatePicker-Bridging-Header.h */,
 			);
 			name = AACustomDatePicker;
 			path = CustomDatePicker;
@@ -135,6 +135,9 @@
 		C8AD662418E2E01B00620DD9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9F2C3F252594A80F00C04EBD /* Main_iPhone.storyboard */,
+				9F2C3F202594A7EB00C04EBD /* Main_iPad.storyboard */,
+				C8AD663818E2E01B00620DD9 /* Images.xcassets */,
 				C8AD662518E2E01B00620DD9 /* AACustomDatePicker-Info.plist */,
 				C8AD662618E2E01B00620DD9 /* InfoPlist.strings */,
 				C8AD662918E2E01B00620DD9 /* main.m */,
@@ -210,6 +213,10 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "I'm IT";
 				TargetAttributes = {
+					C8AD661918E2E01B00620DD9 = {
+						DevelopmentTeam = AM96636MZX;
+						LastSwiftMigration = 1230;
+					};
 					C8AD663D18E2E01B00620DD9 = {
 						TestTargetID = C8AD661918E2E01B00620DD9;
 					};
@@ -220,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -239,9 +247,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8AD663418E2E01B00620DD9 /* Main_iPad.storyboard in Resources */,
+				9F2C3F272594A80F00C04EBD /* Main_iPhone.storyboard in Resources */,
+				9F2C3F222594A7EB00C04EBD /* Main_iPad.storyboard in Resources */,
 				C8AD663918E2E01B00620DD9 /* Images.xcassets in Resources */,
-				C8AD663118E2E01B00620DD9 /* Main_iPhone.storyboard in Resources */,
 				C8AD662818E2E01B00620DD9 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,10 +269,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F2C3F0B2594804100C04EBD /* AADatePicker.swift in Sources */,
 				C8AD662E18E2E01B00620DD9 /* AAAppDelegate.m in Sources */,
-				C8AD663718E2E01B00620DD9 /* AAViewController.m in Sources */,
 				C8AD662A18E2E01B00620DD9 /* main.m in Sources */,
 				C8AD665718E2E06300620DD9 /* AADatePicker.m in Sources */,
+				9F2C3F0F2594831400C04EBD /* AADemoControllerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,28 +296,28 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		9F2C3F202594A7EB00C04EBD /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F2C3F212594A7EB00C04EBD /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		9F2C3F252594A80F00C04EBD /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F2C3F262594A80F00C04EBD /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
 		C8AD662618E2E01B00620DD9 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				C8AD662718E2E01B00620DD9 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		C8AD662F18E2E01B00620DD9 /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C8AD663018E2E01B00620DD9 /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		C8AD663218E2E01B00620DD9 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C8AD663318E2E01B00620DD9 /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		C8AD664818E2E01B00620DD9 /* InfoPlist.strings */ = {
@@ -399,10 +408,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = AM96636MZX;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CustomDatePicker/AACustomDatePicker-Prefix.pch";
 				INFOPLIST_FILE = "CustomDatePicker/AACustomDatePicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = AACustomDatePicker;
+				SWIFT_OBJC_BRIDGING_HEADER = "CustomDatePicker/AACustomDatePicker-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -412,10 +428,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = AM96636MZX;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CustomDatePicker/AACustomDatePicker-Prefix.pch";
 				INFOPLIST_FILE = "CustomDatePicker/AACustomDatePicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = AACustomDatePicker;
+				SWIFT_OBJC_BRIDGING_HEADER = "CustomDatePicker/AACustomDatePicker-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -423,6 +445,7 @@
 		C8AD665318E2E01B00620DD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AACustomDatePicker.app/AACustomDatePicker";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -445,6 +468,7 @@
 		C8AD665418E2E01B00620DD9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AACustomDatePicker.app/AACustomDatePicker";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
